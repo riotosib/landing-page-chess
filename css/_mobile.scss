@@ -1,0 +1,303 @@
+@media (max-width: 470px) {
+
+    .header__wrap {
+        background: url('../img/ban2.webp') center center no-repeat;
+        height: 774px;
+        background-size: cover;
+    }
+
+    .logotype__wrap {margin: 17px 0 0 20px;}
+    .logotype {width: 213px; height: 32px;}
+
+    .offer__wrap {width: 89vw; margin: 42px 0 0 21px;}
+    .offer__h1 {font-size: clamp(31px, 9.6vw, 36px);}
+
+    .offer__txt {
+        margin-top: 23px;       
+        font-size: clamp(15.5px, 4.8vw, 18px);
+        text-align: start;       
+    }
+    
+    
+    .offer__btn-wrap {
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 32px;
+        align-items: center;     
+    }
+
+    .btn__idea, .btn__tourney {
+        width: 335px;
+        height: 47px;
+        font-size: clamp(14px, 4.27vw, 16px);
+        padding: 0;
+        justify-content: center;
+    }
+
+    .btn__tourney {
+        border: rgba(255, 255, 255, 1);
+        background-color: rgba(255, 255, 255, .9);
+    }
+
+    .runline__wrap {height: 38px; font-size: clamp(14px, 4.27vw, 16px);}       
+    .runline li:not(:last-child)::after {top: 5px;}
+
+
+    .about__idea-wrap {margin: 48px 0 0 20px; justify-content: start;}
+    .idea__text {width: clamp(60%, 89vw, 430px);}
+
+    .idea-sup, .idea-lecture, .text-red {
+        display: flex;
+        width: 335px;
+        font-size: clamp(24px, 7.47vw, 28px);
+        text-align: start;   
+    }
+
+    .idea-pic  {
+        width: 335px;
+        height: 212.56px; 
+        max-width: 415px;
+        margin: 23px auto 24px auto;
+    }
+
+    .tourney__img {
+        height: 402px;
+        width: 365px;
+        top: -31px;
+        left: 0px;
+    }
+
+    .tourney__text {font-size: clamp(24px, 7.47vw, 28px); margin: -6px 0 0 20px;}
+
+    .table__style > div:first-child {border-right: none;}
+    .place__cell, .date__cell, .price__cell, .pay__cell, .donation__cell {height: 20px; align-items: center;}
+    .table__place-wrap, .table__date-wrap, .table__price-wrap, .table__pay-wrap, .table__donation-wrap {display: block;}
+    .tourney__info {            
+        display: block;
+        font-size: 20px;     
+        max-width: calc(100% - 40px);
+        width: auto;
+        margin: 30px 20px;        
+    } 
+
+    .table__pay-wrap {
+        display: flex;
+            .pay__cell:last-child {margin-left: 13px;}
+    }
+    .table__style  > div:first-child {margin-top: 15px; margin-bottom: 12px;}
+    .table__style  > div:last-child { margin-top: 16px; margin-bottom: 18px;}
+  
+    .tourney__admin {
+        font-size: clamp(1rem, 1.67vw, 18px);
+        margin: -2px 20px;
+        line-height: 1.4;
+        letter-spacing: 1.1px;
+    }
+    
+    .stage__wrap {width: clamp(300px, 90%, 1222px);}
+
+    .stage__title-wrap {
+        margin-top: 122px;
+        max-width:335px;
+            h2 {line-height: 1.1;}
+            h3 {margin-top: -8px;}
+    }
+
+    .stage__h3-wrap {display: block;}
+    .stage__title {font-size: clamp(31px, 9.6vw, 36px);}
+
+    .stage__h3-wrap .stage__slogan {
+        font-size: clamp(15.5px, 4.8vw, 18px);
+        width: clamp(285px, 89.33vw, 335px);   
+        margin-top: 13px;   
+    }
+
+    .stage__airplane {
+        width: 338px;
+        height: 240px;
+        top: 290px;
+        right: -11px;
+        transform: rotate(-3.5deg);
+    }
+  
+    .stage__info-wrap {
+        grid-template-columns: 1fr; 
+        grid-gap: 0px; 
+        grid-template-rows: 150px 150px 300px 150px 150px 300px 300px;
+        margin-top: 149px;
+        display: flex;
+        flex-direction: row; 
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    .vertical-group {flex-direction: column;}
+        
+    .stage__info {
+        width: 100%; 
+        display: none; 
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.5s ease-in-out;
+    }
+            
+
+    .stage__info:nth-child(7) .stage__text, .stage__text {max-width: 243px;}
+
+    .stage__info:nth-child(1) {grid-row: 1; padding:96px 0 52px 4px; }
+    
+    .stage__info:nth-child(2) {grid-row: 2; padding: 65px 0 86px 2px;}
+    
+    .stage__info:nth-child(3) {grid-row: 3; margin-top: -67px; padding: 0px 0 0 2px}
+   
+    .stage__info:nth-child(4) {grid-row: 4; padding: 42px 0 0 2px;}    
+
+    .stage__info-wrap .stage__info:nth-child(5) {grid-row: 5; padding: 7px 0 108px  2px;}    
+
+    .stage__info:nth-child(6) {grid-row: 6;  padding: 0px 0 88px 2px;} 
+
+    .stage__info:nth-child(7) {grid-row: 7;  padding: 0px 0 26px 2px;}    
+
+    .stage__number, .stage__text {font-size: clamp(15.5px, 4.8vw, 18px);}
+
+    .stage__number { 
+        line-height: 1.9;
+        margin: -34px 17px 0 10px;
+            &::before {              
+                width: 36px; 
+                height: 36px;                  
+            }
+    }
+
+    .stage_slider-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 28px;
+        gap: 16px;
+    }
+   
+
+    .stage__slider-nav {
+        width: clamp(31px, 9.6vw, 36px);
+        height: clamp(31px, 9.6vw, 36px);
+        outline: none;
+        background-color: rgba(49, 49, 49, 0.2);
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        color: $color-white;
+
+            &:hover {
+                background-color: $color-black;
+                transition: 0.4s;
+            }
+
+            &:first-child::after {
+                content: "";
+                background: url(../img/stleft.svg) center center no-repeat;
+                width: 100%;  
+                height: 6vw;
+                max-height: 22px; 
+                display: block;
+                margin-left: -2px;               
+            }
+
+            &:last-child::after {
+                content: "";
+                background: url(../img/stleft.svg) center center no-repeat;
+                width: 100%;
+                height: 6vw;
+                max-height: 22px;
+                transform: rotate(180deg);
+                display: block;
+                margin-left: 2px;
+            }
+    }
+
+    .slider__slider-num {
+        display: flex;
+        gap: 6px;
+
+        li {
+                width: 10px;
+                height: 10px;
+                background-color: #D9D9D9;
+                border-radius: 50%;
+            }
+    }
+    
+    .users__wrap {
+        position: relative;
+        overflow:visible;
+        width:365px;
+        margin-bottom: 177px;
+    }
+    .title__slider-wrap {display: block;}
+    .users__title-wrap {margin-top: 121px; line-height: 1.1;}
+    .users__title {font-size: clamp(31px, 9.6vw, 36px);}
+
+    .users__slider-btn {
+        position: absolute;
+        top: 565px; 
+        left: 50%;
+        gap: 12px;  
+        margin-left: -65px;
+
+    }
+
+    .cards__wrap {margin-top: 41px; gap: 8px;}
+
+    .user__card-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 335px;
+    }
+
+    .user__img {width: 244px; height: 244px;}
+
+    .user__name {
+        height: 30px;     
+        font-size: clamp(20.5px, 6.4vw, 24px);          
+        margin-top: 31px;        
+    }
+
+    .user__rating {
+        width: 300px;
+        font-size: clamp(17px, 5.33vw, 20px);
+    }
+     
+    .users__slider-nav {
+        width: clamp(31px, 9.6vw, 36px);
+        height: clamp(31px, 9.6vw, 36px);
+        
+            &:first-child::after {height: 4.8vw;}
+            &:last-child::after {height: 4.8vw;}
+    }
+     
+
+    .slider__inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out; 
+        will-change: transform;  
+        overflow: hidden;
+        width: 325px;
+        margin-left: 17px;
+    }
+    
+    
+    .footer__wrap {height: 220px;}
+    
+    .footer__text {
+        font-size: 16px; 
+        color: rgba(49, 49, 49, .6);
+        max-width: 335px;      
+    } 
+
+}
+
+
+@media (max-width: 390px) {.title__slider-wrap {margin-left: clamp(14px, 4.27vw, 16px);}}

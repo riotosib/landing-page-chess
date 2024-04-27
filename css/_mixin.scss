@@ -1,0 +1,34 @@
+@mixin button {
+    width: 263px;
+    height: 72px;
+    border-radius: 66px;
+    font-family:$font-text;
+    font-size: clamp(0.2vw, 2vw, 16px);
+    cursor: pointer;
+    padding: 13px 55px;
+    border: 2px solid $color-btn;
+    line-height: 1.3;
+    letter-spacing: 0.1px;
+    display: flex;
+    align-items: center;
+}
+  
+@mixin grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.6fr;  
+}
+
+@mixin section {
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 85%, 1222px); 
+    margin: 0 auto; 
+}
+
+@mixin title {
+    font-family: $font-title;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 4.5vw, 54px);
+    color: $color-black;
+    text-transform: uppercase;
+}
